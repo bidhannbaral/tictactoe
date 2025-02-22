@@ -16,10 +16,12 @@ start.addEventListener("click", () => {
     text.textContent = "Player 1's turn";
     player1 = true;
     gameActive = true;
+    x = [];
+    o = [];
+    numCellsClicked = 0;
+    foundWinner = false;
         cells.forEach((cell) => {
             cell.textContent = "";
-            x = [];
-            o = [];
         });
 });
 
